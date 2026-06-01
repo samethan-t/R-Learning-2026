@@ -1,15 +1,38 @@
 # R-Learning-2026
 
-# Ecology R Practice
+Learning R for ecological and behavioural data analysis as part of my BSc Zoology degree at the University of Bristol.
 
-Learning R for ecological and behavioural data analysis.
+## Topics Covered
 
-Skills covered:
+- Data exploration
+- Data cleaning
+- Data manipulation
+- Data visualisation with ggplot2
+- Descriptive statistics
+- Ecological data analysis
+
+## Packages Used
+
+- tidyverse
 - dplyr
 - tidyr
 - ggplot2
-- statistics
-- data cleaning
+- palmerpenguins
+
+## Current Progress
+
+### Completed
+- Data exploration
+- Data cleaning
+- Data manipulation
+- Descriptive statistics
+- Basic visualisation
+
+### Next Steps
+- Statistical testing
+- Linear models
+- Mixed effects models
+- Ecological datasets
+- Reproducible reporting with Quarto
 
 Author: Sam Thomas
-University of Bristol Zoology
