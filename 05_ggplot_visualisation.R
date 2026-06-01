@@ -1,6 +1,9 @@
 library(tidyverse)
 
+install.packages("palmerpenguins")
+library(palmerpenguins)
 data()
+penguins
 view(penguins)
 
 penguins %>%
@@ -18,5 +21,11 @@ penguins %>%
   #theme(panel.grid = element_blank())+ #remove lines in back
   theme(panel.grid.major = element_blank())
 
+ggsave(
+  "figures/bill_depth_vs_bill_length.png",
+  width = 8,
+  height = 6,
+  dpi = 300
+)
 
 
